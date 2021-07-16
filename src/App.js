@@ -1,11 +1,11 @@
 import './App.css';
 import React from "react";
-import About from "./components/About";
-import Contact from "./components/Contact";
-import Navbar from "./components/Navbar";
-import Projects from "./components/Projects";
+import About from "./components/About.js";
+import Contact from "./components/Contact.js";
+import Navbar from "./components/Navbar.js";
+import Projects from "./components/Projects.js";
 import Skills from "./components/Skills";
-import Testimonials from "./components/Testimonials";
+
 
 
 export default function App() {
@@ -15,7 +15,7 @@ export default function App() {
       <About />
       <Projects />
       <Skills />
-      <Testimonials />
+      
       <Contact />
     </main>
   );

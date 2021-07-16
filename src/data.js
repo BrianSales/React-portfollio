@@ -1,4 +1,4 @@
-export const projects = [
+const projects = [
     {
       title: "React Reserve",
       subtitle: "MERN Stack",
@@ -31,7 +31,11 @@ export const projects = [
       image: "./project-4.gif",
       link: "https://pythonbootcamp.com",
     },
+
   ];
 
+  const skills = ["javascript"]
+  export {skills, projects}
 
-  export default projects
+
+ 
